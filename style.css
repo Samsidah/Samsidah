@@ -1,0 +1,165 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px;
+}
+
+/* Home Section */
+#home {
+    background-color: #87CEEB; /* Light blue */
+    padding: 20px;
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home header {
+    font-size: 30px;
+    color: purple;
+    padding-left: 20px;
+}
+
+.topdiv {
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.topmenu {
+    color: #ccc;
+    background-color: #6a0dad; /* Dark purple */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topmenu:hover {
+    color: white;
+    font-weight: bold;
+    background-color: purple;
+}
+
+/* Conversion Sections */
+#all-conversion-sections {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.b {
+    border-top: solid 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.temperature {
+    border-top-color: green;
+}
+
+.weight {
+    border-top-color: coral;
+}
+
+.distance {
+    border-top-color: cyan;
+}
+
+figure img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+figure figcaption {
+    font-size: 17px;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 90%;
+    margin: 20px 0;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+}
+
+aside {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: lightgreen;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Floating Home Button */
+.iconbutton {
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: cyan;
+    cursor: pointer;
+}
+
+.iconbutton img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: lightpink;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
